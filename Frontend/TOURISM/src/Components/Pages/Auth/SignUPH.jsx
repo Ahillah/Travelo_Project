@@ -1,11 +1,7 @@
-const SignUpH = () => {
-  return (
-    <div>
-      <h1>Hotel Sign Up</h1>
-    </div>
-  );
-};
-
-
-export default SignUpH;
-
+export default function SignUPH() {
+    return (
+        <div>
+            <h1>SignUPH</h1>
+        </div>
+    );
+}

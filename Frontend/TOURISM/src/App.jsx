@@ -1,4 +1,3 @@
-
 import {
   BrowserRouter as Router,
   createHashRouter,
@@ -14,6 +13,7 @@ const Home = lazy(() => import("./Components/Pages/Home/Home.jsx"));
 const SignUp = lazy(() => import("./Components/Pages/Auth/SignUp.jsx"));
 const SignUPT = lazy(() => import("./Components/Pages/Auth/SignUPT.jsx"));
 const SignUpH = lazy(() => import("./Components/Pages/Auth/SignUPH.jsx"));
+const Login = lazy(() => import("./Components/Pages/Auth/Login.jsx"));
 const NotFound = lazy(() => import("./Components/Pages/NotFound/NotFound.jsx"));
 
 const App = () => {
@@ -90,11 +90,29 @@ const App = () => {
         </Suspense>
       ),
     },
+    {
+      path: "Login",
+      element: (
+        <Suspense
+          fallback={
+            <div
+              className="animate-spin 
+                          flex items-center justify-center
+                          rounded-full 
+                          h-12 w-12 
+                          border-4 
+                          border-t-transparent 
+                       border-blue-500"
+            ></div>
+          }
+        >
+          <Login />
+        </Suspense>
+      ),
+    },
   ]);
 
   return <RouterProvider router={routes} />;
 };
 
 export default App;
-
-
