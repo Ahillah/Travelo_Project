@@ -18,7 +18,7 @@ export default function SignUp() {
     }
   };
   return (
-   <div className="flex flex-row gap-[96px] mt-[5px]">
+   <div className="flex flex-row gap-24 mt-[5px]">
   <div>
     <img className="w-[616px] h-[816px] hidden lg:block" src={photo} />
   </div>
@@ -32,26 +32,26 @@ export default function SignUp() {
     </div>
 
       <div>
-        <h3 className="w-[147px] h-[48px] font-bold text-[40px]">Sign up</h3>
-        <p className="w-[364px] h-[20px] text-[16px] text-[#112211] pt-[20px] ">
+        <h3 className="w-[147px] h-12 font-bold text-[40px]">Sign up</h3>
+        <p className="w-[364px] h-5 text-[16px] text-[#112211] pt-5 ">
           Please select your account type to continue
         </p>
       </div>
 
-      <div className="flex flex-row mt-[100px] gap-[24px]">
-        <button className={`flex flex-row w-[249px] h-[122px]   border-[#444444] border-[1px] justify-center pt-[32px] rounded-[16px] ${selected === "tourist" ? "bg-[#27A599]" : "bg-white"}`} onClick={() => setSelected("tourist")}>
+      <div className="flex flex-row mt-[100px] gap-6">
+        <button className={`flex flex-row w-[249px] h-[122px]   border-[#444444] border justify-center pt-8 rounded-2xl ${selected === "tourist" ? "bg-[#27A599]" : "bg-white"}`} onClick={() => setSelected("tourist")}>
           <img className="w-[46px] h-[58px]" src={vector} />
-          <p className="mt-[12px]">Tourist</p>
+          <p className="mt-3">Tourist</p>
         </button>
-        <button className={`flex flex-row w-[249px] h-[122px] border-[#444444] border-[1px] justify-center pt-[32px] rounded-[16px] ${selected === "hotel" ? "bg-[#27A599]" : "bg-white"}`} onClick={() => setSelected("hotel")}>
+        <button className={`flex flex-row w-[249px] h-[122px] border-[#444444] border justify-center pt-8 rounded-2xl ${selected === "hotel" ? "bg-[#27A599]" : "bg-white"}`} onClick={() => setSelected("hotel")}>
           <img src={hotel} className="w-[46px] h-[46px]" />
-          <p className="mt-[12px]">Hotel</p>
+          <p className="mt-3">Hotel</p>
         </button>
       </div>
     </div>
 
    
-   <button className="bg-[#27A599] w-[512px] h-[48px] self-start ml-[-13px] mb-[-15px] rounded-[4px]" onClick={handleNext}>
+   <button className="bg-[#27A599] w-lg h-12 self-start ml-[-13px] mb-[-15px] rounded-sm" onClick={handleNext}>
   Next
 </button>
 
@@ -60,4 +60,7 @@ export default function SignUp() {
 
 
   );
+
 }
+
+
