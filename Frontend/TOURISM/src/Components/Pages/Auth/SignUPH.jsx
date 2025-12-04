@@ -97,6 +97,7 @@ export default function SignUPH() {
               <input type="checkbox" {...register("checkbox")} />
               <p className="pl-2">I agree to all the <span className="text-[#FF8682] font-semibold">Terms</span> and <span className="text-[#FF8682] font-semibold">Privacy Policies</span></p>
             </div>
+            {errors.checkbox && <p className="text-red-500 text-sm">{errors.checkbox.message}</p>}
           </div>
           <button type="submit" className="bg-[#27A599] text-[#112211] w-[414px] h-[49px] p-[10px] gap-[10px] rounded-[8px] text-[24px] font-semibold flex justify-center items-center">Create Account</button>
           <p className="text-center">

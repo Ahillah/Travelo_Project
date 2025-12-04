@@ -23,7 +23,7 @@ const App = () => {
       path: "/",
       element: <RootLayout />,
       children: [
-        { index: true, element: <Home /> },
+        { index: true, element: <Login /> },
 
         { path: "*", element: <NotFound /> },
       ],
