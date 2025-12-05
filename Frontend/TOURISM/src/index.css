@@ -1,1 +1,17 @@
-@import "tailwindcss";
+/* @import "tailwindcss";
+
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+} */
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}

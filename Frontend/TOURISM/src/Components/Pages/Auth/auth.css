@@ -1,0 +1,373 @@
+/* Login Page Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Main Container */
+.min-h-screen {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+
+/* Card Container */
+.min-h-screen > div {
+  width: 100%;
+  max-width: 1100px;
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  display: flex;
+}
+
+/* Left Column */
+.w-\[45\%\] {
+  width: 45%;
+  padding: 5rem 2.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Right Column */
+.w-\[55\%\] {
+  width: 55%;
+  position: relative;
+  overflow: hidden;
+  padding: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Brand Header */
+.mb-12 {
+  margin-bottom: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  font-style: italic;
+  color: #1f2937;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.text-\[#4CAF9F\] {
+  color: #4CAF9F;
+  font-size: 2.25rem;
+}
+
+/* Login Title */
+.flex-1 {
+  flex: 1;
+}
+
+.mb-8 {
+  margin-bottom: 1.5rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #111827;
+  margin-bottom: 0.5rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  color: #6b7280;
+}
+
+/* Role Toggle Buttons */
+.mb-6 {
+  margin-bottom: 1.25rem;
+  display: flex;
+  gap: 0.75rem;
+}
+
+.mb-6 button {
+  flex: 1;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  cursor: pointer;
+  background-color: white;
+}
+
+.mb-6 button {
+  border: 2px solid #d1d5db;
+  color: #6b7280;
+}
+
+.mb-6 button.active {
+  border: 2px solid #00BFA5;
+  color: #111827;
+}
+
+/* Form */
+.space-y-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.space-y-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+/* Labels */
+label {
+  display: block;
+  color: #374151;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+/* Inputs */
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  background-color: white;
+  border: 1px solid #d1d5db;
+  color: #111827;
+  height: 3rem;
+  border-radius: 0.25rem;
+  padding: 0 1rem;
+  font-size: 0.875rem;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="text"]:focus {
+  outline: none;
+  ring: 2px;
+  ring-color: #00BFA5;
+  border-color: transparent;
+  box-shadow: 0 0 0 2px #00BFA5;
+}
+
+input::placeholder {
+  color: #9ca3af;
+}
+
+/* Password Container */
+.relative {
+  position: relative;
+}
+
+.relative button {
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #9ca3af;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.relative button:hover {
+  color: #6b7280;
+}
+
+/* Remember Me & Forgot Password */
+.pt-1 {
+  padding-top: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.space-x-2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+input[type="checkbox"] {
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:focus {
+  ring: 2px;
+  ring-color: #00BFA5;
+}
+
+.text-\[#FF6B6B\] {
+  color: #FF6B6B;
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+
+.text-\[#FF6B6B\]:hover {
+  color: #FF5252;
+}
+
+/* Login Button */
+button[type="submit"] {
+  width: 100%;
+  background-color: #00BFA5;
+  color: white;
+  height: 3rem;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+  background-color: #00AB94;
+}
+
+/* Sign Up Link */
+.pt-2 {
+
+  text-align: center;
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.pt-2 a {
+  color: #FF6B6B;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.pt-2 a:hover {
+  color: #FF5252;
+}
+
+/* Divider */
+.my-6 {
+  position: relative;
+  margin: 1rem 0;
+}
+
+.my-6 > div:first-child {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+}
+
+.my-6 > div:first-child > div {
+  width: 100%;
+  border-top: 1px solid #e5e7eb;
+}
+
+.my-6 > div:last-child {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 0.875rem;
+}
+
+.my-6 span {
+  background-color: white;
+  padding: 0 1rem;
+  color: #6b7280;
+}
+
+/* Social Buttons */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+.grid button {
+  background-color: white;
+  border: 1px solid #d1d5db;
+  height: 3rem;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.2s;
+  cursor: pointer;
+}
+
+.grid button:hover {
+  background-color: #f9fafb;
+}
+
+.grid button svg {
+  width: 1.25rem;
+  height: 1.25rem;
+}
+
+/* Image */
+.rounded-l-\[3rem\] {
+  width: 100%;
+  height: calc(100% - 5px);
+  object-fit: cover;
+  border-radius: 4rem 1rem;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .min-h-screen > div {
+    flex-direction: column;
+    max-width: 600px;
+  }
+  
+  .w-\[45\%\],
+  .w-\[55\%\] {
+    width: 100% !important;
+  }
+  
+  .w-\[55\%\] {
+    padding: 20px !important;
+  }
+  
+  .rounded-l-\[3rem\] {
+    border-radius: 2rem !important;
+    height: 300px !important;
+  }
+}
+
+@media (max-width: 640px) {
+  .min-h-screen {
+    padding: 1rem;
+  }
+  
+  .w-\[45\%\] {
+    padding: 2rem !important;
+  }
+  
+  .text-4xl {
+    font-size: 2rem !important;
+  }
+  
+  .text-3xl {
+    font-size: 1.5rem !important;
+  }
+}
