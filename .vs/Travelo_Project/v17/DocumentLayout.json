@@ -1,0 +1,406 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE80C20-80A4-4A3C-B2AB-A038814BA4A8}|DomainLayer\\DomainLayer.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\domainlayer\\repositoryinterface\\idataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AE80C20-80A4-4A3C-B2AB-A038814BA4A8}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\repositoryinterface\\idataseeding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F783BAA8-D2AA-4902-AA22-BE1F0FF86F9D}|Travelo_Project\\Travelo_Project.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\travelo_project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F783BAA8-D2AA-4902-AA22-BE1F0FF86F9D}|Travelo_Project\\Travelo_Project.csproj|solutionrelative:travelo_project\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F783BAA8-D2AA-4902-AA22-BE1F0FF86F9D}|Travelo_Project\\Travelo_Project.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\travelo_project\\travelo_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{F783BAA8-D2AA-4902-AA22-BE1F0FF86F9D}|Travelo_Project\\Travelo_Project.csproj|solutionrelative:travelo_project\\travelo_project.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F783BAA8-D2AA-4902-AA22-BE1F0FF86F9D}|Travelo_Project\\Travelo_Project.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\travelo_project\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F783BAA8-D2AA-4902-AA22-BE1F0FF86F9D}|Travelo_Project\\Travelo_Project.csproj|solutionrelative:travelo_project\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F783BAA8-D2AA-4902-AA22-BE1F0FF86F9D}|Travelo_Project\\Travelo_Project.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\travelo_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F783BAA8-D2AA-4902-AA22-BE1F0FF86F9D}|Travelo_Project\\Travelo_Project.csproj|solutionrelative:travelo_project\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F783BAA8-D2AA-4902-AA22-BE1F0FF86F9D}|Travelo_Project\\Travelo_Project.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\travelo_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F783BAA8-D2AA-4902-AA22-BE1F0FF86F9D}|Travelo_Project\\Travelo_Project.csproj|solutionrelative:travelo_project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE80C20-80A4-4A3C-B2AB-A038814BA4A8}|DomainLayer\\DomainLayer.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\domainlayer\\models\\tours\\tours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AE80C20-80A4-4A3C-B2AB-A038814BA4A8}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\models\\tours\\tours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BB539CA-1081-42C5-A640-4A27E926228C}|ServiceImplementation\\ServiceImplementation.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\serviceimplementation\\mappingprofile\\tourprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BB539CA-1081-42C5-A640-4A27E926228C}|ServiceImplementation\\ServiceImplementation.csproj|solutionrelative:serviceimplementation\\mappingprofile\\tourprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3BB539CA-1081-42C5-A640-4A27E926228C}|ServiceImplementation\\ServiceImplementation.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\serviceimplementation\\tour\\tourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3BB539CA-1081-42C5-A640-4A27E926228C}|ServiceImplementation\\ServiceImplementation.csproj|solutionrelative:serviceimplementation\\tour\\tourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16E586CF-6038-4323-9A6C-2A0194AB6EB7}|Persistance\\Persistance.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\persistance\\configuration\\tour\\tourconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16E586CF-6038-4323-9A6C-2A0194AB6EB7}|Persistance\\Persistance.csproj|solutionrelative:persistance\\configuration\\tour\\tourconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{430457C8-03C4-4CA4-9676-F17F6C26741C}|presentation\\presentation.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\presentation\\tous\\tourscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{430457C8-03C4-4CA4-9676-F17F6C26741C}|presentation\\presentation.csproj|solutionrelative:presentation\\tous\\tourscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16E586CF-6038-4323-9A6C-2A0194AB6EB7}|Persistance\\Persistance.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\persistance\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16E586CF-6038-4323-9A6C-2A0194AB6EB7}|Persistance\\Persistance.csproj|solutionrelative:persistance\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16E586CF-6038-4323-9A6C-2A0194AB6EB7}|Persistance\\Persistance.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\persistance\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16E586CF-6038-4323-9A6C-2A0194AB6EB7}|Persistance\\Persistance.csproj|solutionrelative:persistance\\applicationdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16E586CF-6038-4323-9A6C-2A0194AB6EB7}|Persistance\\Persistance.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\persistance\\dataseed\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16E586CF-6038-4323-9A6C-2A0194AB6EB7}|Persistance\\Persistance.csproj|solutionrelative:persistance\\dataseed\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF22BDD-299A-4FF0-8B4F-3336841D6516}|Shared\\Shared.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\shared\\dto\u0027s\\tour\\createtourdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF22BDD-299A-4FF0-8B4F-3336841D6516}|Shared\\Shared.csproj|solutionrelative:shared\\dto\u0027s\\tour\\createtourdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF22BDD-299A-4FF0-8B4F-3336841D6516}|Shared\\Shared.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\shared\\dto\u0027s\\tour\\updatetourdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF22BDD-299A-4FF0-8B4F-3336841D6516}|Shared\\Shared.csproj|solutionrelative:shared\\dto\u0027s\\tour\\updatetourdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7FE40402-AB07-4285-83A7-9F987CBF60B6}|ServiceAbstraction\\ServiceAbstraction.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\serviceabstraction\\tour\\itourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7FE40402-AB07-4285-83A7-9F987CBF60B6}|ServiceAbstraction\\ServiceAbstraction.csproj|solutionrelative:serviceabstraction\\tour\\itourservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CDF22BDD-299A-4FF0-8B4F-3336841D6516}|Shared\\Shared.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\shared\\dto\u0027s\\tour\\tourdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CDF22BDD-299A-4FF0-8B4F-3336841D6516}|Shared\\Shared.csproj|solutionrelative:shared\\dto\u0027s\\tour\\tourdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16E586CF-6038-4323-9A6C-2A0194AB6EB7}|Persistance\\Persistance.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\persistance\\persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{16E586CF-6038-4323-9A6C-2A0194AB6EB7}|Persistance\\Persistance.csproj|solutionrelative:persistance\\persistance.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16E586CF-6038-4323-9A6C-2A0194AB6EB7}|Persistance\\Persistance.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\persistance\\repositoryimplementation\\tours\\tourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16E586CF-6038-4323-9A6C-2A0194AB6EB7}|Persistance\\Persistance.csproj|solutionrelative:persistance\\repositoryimplementation\\tours\\tourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3AE80C20-80A4-4A3C-B2AB-A038814BA4A8}|DomainLayer\\DomainLayer.csproj|d:\\basma\\travelo_project-master\\travelo_project-master\\backend\\domainlayer\\repositoryinterface\\tours\\itourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3AE80C20-80A4-4A3C-B2AB-A038814BA4A8}|DomainLayer\\DomainLayer.csproj|solutionrelative:domainlayer\\repositoryinterface\\tours\\itourrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IDataSeeding.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\DomainLayer\\RepositoryInterface\\IDataSeeding.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\RepositoryInterface\\IDataSeeding.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\DomainLayer\\RepositoryInterface\\IDataSeeding.cs",
+              "RelativeToolTip": "DomainLayer\\RepositoryInterface\\IDataSeeding.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T18:37:31.296Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Travelo_Project\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Travelo_Project\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Travelo_Project\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Travelo_Project\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAgwA8AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T19:41:17.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Travelo_Project.csproj",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Travelo_Project\\Travelo_Project.csproj",
+              "RelativeDocumentMoniker": "Travelo_Project\\Travelo_Project.csproj",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Travelo_Project\\Travelo_Project.csproj",
+              "RelativeToolTip": "Travelo_Project\\Travelo_Project.csproj",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-04T19:36:43.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Travelo_Project\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Travelo_Project\\appsettings.Development.json",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Travelo_Project\\appsettings.Development.json",
+              "RelativeToolTip": "Travelo_Project\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T19:36:38.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Travelo_Project\\appsettings.json",
+              "RelativeDocumentMoniker": "Travelo_Project\\appsettings.json",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Travelo_Project\\appsettings.json",
+              "RelativeToolTip": "Travelo_Project\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-04T19:36:29.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TourConfiguration.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Persistance\\Configuration\\Tour\\TourConfiguration.cs",
+              "RelativeDocumentMoniker": "Persistance\\Configuration\\Tour\\TourConfiguration.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Persistance\\Configuration\\Tour\\TourConfiguration.cs",
+              "RelativeToolTip": "Persistance\\Configuration\\Tour\\TourConfiguration.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T19:19:42.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ToursController.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\presentation\\Tous\\ToursController.cs",
+              "RelativeDocumentMoniker": "presentation\\Tous\\ToursController.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\presentation\\Tous\\ToursController.cs",
+              "RelativeToolTip": "presentation\\Tous\\ToursController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAmwBAAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T19:16:35.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Persistance\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Persistance\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Persistance\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Persistance\\ApplicationDbContext.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAADwvysAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T19:11:56.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TourService.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\ServiceImplementation\\Tour\\TourService.cs",
+              "RelativeDocumentMoniker": "ServiceImplementation\\Tour\\TourService.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\ServiceImplementation\\Tour\\TourService.cs",
+              "RelativeToolTip": "ServiceImplementation\\Tour\\TourService.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAA+wDIAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T19:07:48.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TourProfile.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\ServiceImplementation\\MappingProfile\\TourProfile.cs",
+              "RelativeDocumentMoniker": "ServiceImplementation\\MappingProfile\\TourProfile.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\ServiceImplementation\\MappingProfile\\TourProfile.cs",
+              "RelativeToolTip": "ServiceImplementation\\MappingProfile\\TourProfile.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAABEAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T19:07:08.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Travelo_Project\\Program.cs",
+              "RelativeDocumentMoniker": "Travelo_Project\\Program.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Travelo_Project\\Program.cs",
+              "RelativeToolTip": "Travelo_Project\\Program.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAQwCAAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T18:36:34.534Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Tours.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\DomainLayer\\Models\\Tours\\Tours.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\Models\\Tours\\Tours.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\DomainLayer\\Models\\Tours\\Tours.cs",
+              "RelativeToolTip": "DomainLayer\\Models\\Tours\\Tours.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T18:34:10.676Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Persistance\\DataSeed\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "Persistance\\DataSeed\\DataSeeder.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Persistance\\DataSeed\\DataSeeder.cs",
+              "RelativeToolTip": "Persistance\\DataSeed\\DataSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T18:43:32.062Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContextFactory.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Persistance\\ApplicationDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Persistance\\ApplicationDbContextFactory.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Persistance\\ApplicationDbContextFactory.cs",
+              "RelativeToolTip": "Persistance\\ApplicationDbContextFactory.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAqwBgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T18:16:27.764Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UpdateTourDto.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Shared\\Dto\u0027s\\Tour\\UpdateTourDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Dto\u0027s\\Tour\\UpdateTourDto.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Shared\\Dto\u0027s\\Tour\\UpdateTourDto.cs",
+              "RelativeToolTip": "Shared\\Dto\u0027s\\Tour\\UpdateTourDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T17:53:05.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CreateTourDto.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Shared\\Dto\u0027s\\Tour\\CreateTourDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Dto\u0027s\\Tour\\CreateTourDto.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Shared\\Dto\u0027s\\Tour\\CreateTourDto.cs",
+              "RelativeToolTip": "Shared\\Dto\u0027s\\Tour\\CreateTourDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwA4AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T17:52:41.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "TourDto.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Shared\\Dto\u0027s\\Tour\\TourDto.cs",
+              "RelativeDocumentMoniker": "Shared\\Dto\u0027s\\Tour\\TourDto.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Shared\\Dto\u0027s\\Tour\\TourDto.cs",
+              "RelativeToolTip": "Shared\\Dto\u0027s\\Tour\\TourDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T17:51:39.593Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ITourService.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\ServiceAbstraction\\Tour\\ITourService.cs",
+              "RelativeDocumentMoniker": "ServiceAbstraction\\Tour\\ITourService.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\ServiceAbstraction\\Tour\\ITourService.cs",
+              "RelativeToolTip": "ServiceAbstraction\\Tour\\ITourService.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAuwAkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T17:50:43.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Persistance.csproj",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Persistance\\Persistance.csproj",
+              "RelativeDocumentMoniker": "Persistance\\Persistance.csproj",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Persistance\\Persistance.csproj",
+              "RelativeToolTip": "Persistance\\Persistance.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-04T17:47:05.01Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TourRepository.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Persistance\\RepositoryImplementation\\Tours\\TourRepository.cs",
+              "RelativeDocumentMoniker": "Persistance\\RepositoryImplementation\\Tours\\TourRepository.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\Persistance\\RepositoryImplementation\\Tours\\TourRepository.cs",
+              "RelativeToolTip": "Persistance\\RepositoryImplementation\\Tours\\TourRepository.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAIwCsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T17:47:41.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ITourRepository.cs",
+              "DocumentMoniker": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\DomainLayer\\RepositoryInterface\\Tours\\ITourRepository.cs",
+              "RelativeDocumentMoniker": "DomainLayer\\RepositoryInterface\\Tours\\ITourRepository.cs",
+              "ToolTip": "D:\\Basma\\Travelo_Project-master\\Travelo_Project-master\\Backend\\DomainLayer\\RepositoryInterface\\Tours\\ITourRepository.cs",
+              "RelativeToolTip": "DomainLayer\\RepositoryInterface\\Tours\\ITourRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T17:46:22.359Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{269a02dc-6af8-11d3-bdc4-00c04f688e50}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1252,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 605,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
