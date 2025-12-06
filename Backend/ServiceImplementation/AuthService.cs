@@ -19,7 +19,7 @@ namespace ServiceImplementation
             _config = config;
         }
 
-        public async Task<string> CreatTokenAsync(ApplicationUser user, UserManager<ApplicationUser> userManager, string role)
+        public async Task<string> CreateTokenAsync(ApplicationUser user, UserManager<ApplicationUser> userManager, string role)
         {
             // Custom Claims
             var authClaim = new List<Claim>()

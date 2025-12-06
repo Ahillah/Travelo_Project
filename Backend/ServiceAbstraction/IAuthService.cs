@@ -10,6 +10,6 @@ namespace ServiceAbstraction
 {
     public interface IAuthService
     {
-        Task<string> CreatTokenAsync(ApplicationUser user, UserManager<ApplicationUser> userManager , string role);
+        Task<string> CreateTokenAsync(ApplicationUser user, UserManager<ApplicationUser> userManager , string role);
     }
 }

@@ -93,7 +93,7 @@ namespace presentation.Controllers
             if (!check) return Unauthorized("Invalid Email or Password");
 
             var roles = await _userManager.GetRolesAsync(user);
-            var token = await _authService.CreatTokenAsync(user, _userManager, roles.First());
+            var token = await _authService.CreateTokenAsync(user, _userManager, roles.First());
 
             return Ok(new
             {
