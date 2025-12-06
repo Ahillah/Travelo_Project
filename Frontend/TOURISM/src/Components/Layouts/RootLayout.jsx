@@ -6,7 +6,7 @@ import { Suspense } from "react";
 const RootLayout = () => {
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <main>
          {/* Suspense component to show a fallback loader while lazy-loaded components are being fetched */}
@@ -26,7 +26,7 @@ const RootLayout = () => {
         </Suspense>
       </main>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };

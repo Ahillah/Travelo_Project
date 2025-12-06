@@ -41,7 +41,7 @@ export default function SignUPH() {
   }
 
   return (
-    <div className="flex flex-row gap-[96px] mt-[5px]">
+    <div className="flex flex-row ">
       <div className="mt-[104px] ml-[125px] gap-[64px] w-[414px] h-[762px]">
         <div className="flex flex-row items-center gap-2">
           <p className="text-[64px] monotype-corsiva">Travel</p>

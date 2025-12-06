@@ -1,10 +1,15 @@
-import React from 'react'
+
+import FeaturedTours from './FeaturedToursSection/FeaturedTours'
+import Hero from './HeroSection/Hero'
+import Review from './ReviewSection/Review'
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home</h1>
-    </div>
+    <section className='min-h-screen'>
+     <Hero/>
+     <FeaturedTours/>
+     <Review/>
+    </section>
   )
 }
 
