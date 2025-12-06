@@ -6,13 +6,14 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Persistance;
+using Persistance.Identity;
 using System.Text;
 
 namespace Travelo_Project
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
@@ -58,8 +59,17 @@ namespace Travelo_Project
 
             var app = builder.Build();
 
-                  // Configure the HTTP request pipeline.
-                  if (app.Environment.IsDevelopment())
+            using (var scope = app.Services.CreateScope())
+            {
+                var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<ApplicationRole>>();
+                var userManager = scope.ServiceProvider.GetRequiredService<UserManager<ApplicationUser>>();
+                var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+
+                await IdentityDataSeed.Initialize(roleManager, userManager, db);
+            }
+
+            // Configure the HTTP request pipeline.
+            if (app.Environment.IsDevelopment())
                   {
                       app.MapOpenApi();
                 app.MapOpenApi();
