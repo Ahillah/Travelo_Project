@@ -7,7 +7,7 @@ import { lazy, Suspense } from "react";
 
 // I use RootLayout to wrap all pages with common layout components like Navbar and Footer
 import RootLayout from "./Components/Layouts/RootLayout.jsx";
-
+import ProfileLayout from "./Components/Layouts/ProfileLayout.jsx";
 // Lazy load page components for better performance
 const Home = lazy(() => import("./Components/Pages/Home/Home.jsx"));
 const SignUp = lazy(() => import("./Components/Pages/Auth/SignUp.jsx"));
@@ -15,6 +15,7 @@ const SignUPT = lazy(() => import("./Components/Pages/Auth/SignUPT.jsx"));
 const SignUpH = lazy(() => import("./Components/Pages/Auth/SignUPH.jsx"));
 const Login = lazy(() => import("./Components/Pages/Auth/Login.jsx"));
 const NotFound = lazy(() => import("./Components/Pages/NotFound/NotFound.jsx"));
+const Personal = lazy(() => import("./Components/Pages/profile/Personal.jsx"));
 
 const App = () => {
   const routes = createHashRouter([
@@ -24,6 +25,8 @@ const App = () => {
       element: <RootLayout />,
       children: [
         { index: true, element: <Login/> },
+
+        { path: "Home", element: <Home /> },
 
         { path: "*", element: <NotFound /> },
       ],
@@ -109,7 +112,16 @@ const App = () => {
           <Login />
         </Suspense>
       ),
-    },
+    },{
+  path: "/profile",
+  element: <ProfileLayout />, 
+  children: [
+    { path: "personal", element: <Personal /> },
+    //{ path: "paymentAccount", element: <PaymentAccount /> },
+    
+  ],
+}
+
   ]);
 
   return <RouterProvider router={routes} />;
