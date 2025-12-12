@@ -1,12 +1,22 @@
 
 using DomainLayer.Models.Identity;
 using DomainLayer.Models.User;
+using DomainLayer.RepositoryInterface.Hotel___Accommodation;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.IdentityModel.Tokens;
 using Persistance;
+using Persistance.RepositoryImplementation.Hotel___Accommodation;
+using Persistance.RepositoryImplementation.Hotel___Accomodation;
+using ServiceAbstraction.Hotel___Accommodation;
+using ServiceImplementation.Hotel___Accommodation;
+//using AutoMapper.QueryableExtensions.Microsoft.DependencyInjection;
+using ServiceImplementation.MappingProfile.Hotel___Accommodation;
 using System.Text;
+using AutoMapper;
+using ServiceImplementation.MappingProfile.Hotel___Accommodation;
 
 namespace Travelo_Project
 {
@@ -28,6 +38,37 @@ namespace Travelo_Project
 
 
             });
+            //hotel
+            builder.Services.AddScoped<IAmenityRepository, AmenityRepository>();
+            builder.Services.AddScoped<IAmenityService, AmenityService>();
+            builder.Services.AddAutoMapper(typeof(AmenityProfile));
+
+
+            builder.Services.AddScoped<IRoomRepository, RoomRepository>();
+            builder.Services.AddScoped<IRoomService, RoomService>();
+            builder.Services.AddAutoMapper(typeof(RoomProfile));
+
+            builder.Services.AddScoped<IHotelAmenityRepository, HotelAmenityRepository>();
+            builder.Services.AddScoped<IHotelAmenityService, HotelAmenityService>();
+            builder.Services.AddAutoMapper(typeof(HotelAmenityProfile));
+
+            builder.Services.AddScoped<IHotelRepository, HotelRepository>();
+            builder.Services.AddScoped<IHotelService, HotelService>();
+            builder.Services.AddAutoMapper(typeof(HotelProfile));
+            builder.Services.AddAutoMapper(typeof(HotelDetailsProfile));
+
+            builder.Services.AddScoped<IPriceAndAvailabilityRepository, PriceAndAvailabilityRepository>();
+            builder.Services.AddScoped<IPriceAndAvailbilityService, PriceAndAvailbilityService>();
+            builder.Services.AddAutoMapper(typeof(PriceAndAvailabilityProfile));
+
+            ////builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
+            //builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+
+
+
+
+
+            //end
             builder.Services.AddAuthentication(
                   cobfig =>
                   {
