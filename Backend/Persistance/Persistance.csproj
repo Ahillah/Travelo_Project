@@ -19,11 +19,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DomainLayer\DomainLayer.csproj" />
+    <ProjectReference Include="..\presentation\presentation.csproj" />
     <ProjectReference Include="..\ServiceImplementation\ServiceImplementation.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="RepositoryImplementation\" />
+    <Folder Include="Migrations\" />
   </ItemGroup>
 
 </Project>

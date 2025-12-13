@@ -43,21 +43,78 @@ namespace Persistance.Identity
         {
             if (!db.Hotels.Any())
             {
-                db.Hotels.Add(new Hotel
-                {
-                    Id = 1,
-                    Name = "Sunrise Hotel",
-                    Address = "Cairo",
-                    StarRating = 5
-                });
+                db.Hotels.AddRange(
+                    new Hotel
+                    {
+                     
+                        Name = "Sunrise Grand Resort",
+                        Description = "A luxurious beachfront resort offering premium rooms, multiple swimming pools, and exceptional hospitality.",
+                        ImageUrel = "https://picsum.photos/seed/hotel1/600/400",
+                        Address = "Sheraton Road, Hurghada",
+                        City = "Hurghada",
+                        Latitude = 27.2579m,
+                        Longitude = 33.8116m,
+                        StarRating = 5,
+                        CheckInTime = new TimeSpan(14, 0, 0),
+                        CheckOutTime = new TimeSpan(12, 0, 0)
+                    },
+                    new Hotel
+                    {
+                      
+                        Name = "Nile View Hotel",
+                        Description = "A quiet hotel located directly on the Nile with spacious rooms and relaxing views.",
+                        ImageUrel = "https://picsum.photos/seed/hotel2/600/400",
+                        Address = "Corniche El Nil, Downtown",
+                        City = "Cairo",
+                        Latitude = 30.0444m,
+                        Longitude = 31.2357m,
+                        StarRating = 4,
+                        CheckInTime = new TimeSpan(13, 0, 0),
+                        CheckOutTime = new TimeSpan(11, 0, 0)
+                    },
+                    new Hotel
+                    {
+                       
+                        Name = "Alexandria Beach Hotel",
+                        Description = "A modern hotel with direct beach access, offering sea-view rooms and family-friendly amenities.",
+                        ImageUrel = "https://picsum.photos/seed/hotel3/600/400",
+                        Address = "Stanley Bridge Road",
+                        City = "Alexandria",
+                        Latitude = 31.2417m,
+                        Longitude = 29.9668m,
+                        StarRating = 4,
+                        CheckInTime = new TimeSpan(14, 0, 0),
+                        CheckOutTime = new TimeSpan(12, 0, 0)
+                    },
+                    new Hotel
+                    {
+                    
+                        Name = "Sharm Paradise Resort",
+                        Description = "A 5-star resort with diving activities, private beach, and world-class restaurants.",
+                        ImageUrel = "https://picsum.photos/seed/hotel4/600/400",
+                        Address = "Naama Bay",
+                        City = "Sharm El Sheikh",
+                        Latitude = 27.9158m,
+                        Longitude = 34.3299m,
+                        StarRating = 5,
+                        CheckInTime = new TimeSpan(15, 0, 0),
+                        CheckOutTime = new TimeSpan(12, 0, 0)
+                    },
+                    new Hotel
+                    {
+                     
+                        Name = "Luxor Royal Inn",
+                        Description = "Located near the ancient temples with river-side rooms and comfortable suites.",
+                        ImageUrel = "https://picsum.photos/seed/hotel5/600/400",
+                        Address = "Luxor Temple Street",
+                        City = "Luxor",
+                        Latitude = 25.6872m,
+                        Longitude = 32.6396m,
+                        StarRating = 4,
+                        CheckInTime = new TimeSpan(13, 0, 0),
+                        CheckOutTime = new TimeSpan(11, 0, 0)
+                    });
 
-                db.Hotels.Add(new Hotel
-                {
-                    Id = 2,
-                    Name = "Grand Resort",
-                    Address = "Hurghada",
-                    StarRating = 4
-                });
 
                 await db.SaveChangesAsync();
             }
@@ -92,7 +149,7 @@ namespace Persistance.Identity
                     Email = "hotel@test.com",
                     DisplayName = "Hotel Manager 1",
                     UserType = "Hotel",
-                    HotelId = 1,
+                    HotelId = 5,
                     EmailConfirmed = true
                 };
 

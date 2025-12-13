@@ -1,6 +1,6 @@
 ﻿using DomainLayer.Models.Booking_Transaction;
 using DomainLayer.Models.Flights;
-using DomainLayer.Models.Flights;
+
 using DomainLayer.Models.Hotels___Accommodation;
 using DomainLayer.Models.Identity;
 using DomainLayer.Models.Tours;
@@ -8,12 +8,6 @@ using DomainLayer.Models.User;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Persistance
 {
@@ -130,24 +124,30 @@ namespace Persistance
                 .IsRequired()
                 .OnDelete(DeleteBehavior.Restrict);
 
+
+            modelBuilder.Entity<Booking>()
+                .HasOne(b => b.User)            // استخدم الـ Navigation Property
+                .WithMany(u => u.Bookings)
+                .HasForeignKey(b => b.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Review>()
+                .HasOne(r => r.User)            // استخدم الـ Navigation Property
+                .WithMany(u => u.Reviews)
+                .HasForeignKey(r => r.UserId)
+                .OnDelete(DeleteBehavior.Restrict);
+
+            modelBuilder.Entity<Review>()
+                .Property(r => r.TargetType)
+                .HasConversion<string>();
+
             modelBuilder.Entity<Payment>()
-                .HasOne(p => p.Booking)
-                .WithMany()
-                .HasForeignKey(p => p.BookingId)
+                .HasOne(p => p.User)            // نفس الشيء هنا
+                .WithMany(u => u.Payments)
+                .HasForeignKey(p => p.UserId)
                 .OnDelete(DeleteBehavior.Restrict);
 
 
-    
-            modelBuilder.Entity<Booking>()
-                .HasOne<TouristUser>().WithMany(u => u.Bookings).HasForeignKey(b => b.UserId).OnDelete(DeleteBehavior.Restrict);
-
-          
-            modelBuilder.Entity<Review>()
-                .HasOne<TouristUser>().WithMany(u => u.Reviews).HasForeignKey(r => r.UserId).OnDelete(DeleteBehavior.Restrict);
-
-           
-            modelBuilder.Entity<Payment>()
-                .HasOne<TouristUser>().WithMany(u => u.Payments).HasForeignKey(pm => pm.UserId).OnDelete(DeleteBehavior.Restrict);
         }
 
     }

@@ -9,6 +9,7 @@ namespace Shared.Dtos.Identity
 {
     public class HotelRegisterDto
     {
+        public int HotelId { get; set; }
         [Required]
         public string HotelName { get; set; } = default!;
 

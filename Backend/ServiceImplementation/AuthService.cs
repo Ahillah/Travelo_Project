@@ -30,21 +30,24 @@ namespace ServiceImplementation
             new Claim("UserType", user.UserType ?? "") 
         };
 
-        
 
-            // Security Key (Fix Typo: AuhKey → AuthKey)
+
+            // Read Key from JwtOptions
             var key = new SymmetricSecurityKey(
-                Encoding.UTF8.GetBytes(_config["jwt:AuthKey"]!)
+                Encoding.UTF8.GetBytes(_config["JwtOptions:Key"]!)
             );
 
             // Create token
             var token = new JwtSecurityToken(
-                issuer: _config["jwt:AuthIssuer"],
-                audience: _config["jwt:AuthAudience"],
-                expires: DateTime.Now.AddDays(double.Parse(_config["jwt:AuthExpire"] ?? "1")),
+                issuer: _config["JwtOptions:Issuer"],
+                audience: _config["JwtOptions:Audience"],
+                expires: DateTime.Now.AddMinutes(
+                    double.Parse(_config["JwtOptions:ExpireMinutes"] ?? "30")
+                ),
                 claims: authClaim,
                 signingCredentials: new SigningCredentials(key, SecurityAlgorithms.HmacSha256)
             );
+
 
             return new JwtSecurityTokenHandler().WriteToken(token);
         }

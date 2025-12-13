@@ -26,5 +26,14 @@ namespace DomainLayer.Models.Booking_Transaction
         public virtual TourBooking TourBooking { get; set; }
 
         public virtual ICollection<Transaction> Transactions { get; set; }
+
+        //  لازم تضيفي دول علشان Stripe 
+        public string PaymentIntentId { get; set; }   // Stripe Intent ID
+        public string ClientSecret { get; set; }       // Stripe Secret
+        public string PaymentStatus { get; set; }      // Pending / Paid / Failed
+
+
+  
+      
     }
 }

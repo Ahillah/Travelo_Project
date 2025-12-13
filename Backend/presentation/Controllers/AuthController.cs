@@ -67,8 +67,11 @@ namespace presentation.Controllers
             if (!ModelState.IsValid)
                 return BadRequest(ModelState);
 
+
+
             var user = _mapper.Map<HotelUser>(dto);
             user.DisplayName = dto.HotelName;
+            user.HotelId = dto.HotelId;
             user.UserType = "HOTEL";
 
             var result = await _userManager.CreateAsync(user, dto.Password);
